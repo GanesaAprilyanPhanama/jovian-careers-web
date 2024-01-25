@@ -5,25 +5,25 @@ app = Flask(__name__)
 JOBS = [
   {
     'id': 1,
-    'title': 'Data Analyst',
+    'title': 'Underwater Dweller',
     'location': 'Bandung, Indonesia',
     'salary': 'Rp 50,000,000'
   },
   {
     'id': 2,
-    'title': 'Data Scientist',
+    'title': 'Cargo Ship Sailor',
     'location': 'Sanggau, Indonesia',
     'salary': 'Rp 25,000,000'
   },
   {
     'id': 3,
-    'title': 'Web Back-end Programmer',
+    'title': 'Somali Pirate',
     'location': 'Jakarta, Indonesia',
     'salary': 'Rp 100,000,000'
   },
   {
     'id': 4,
-    'title': 'Web Front-end Programmer',
+    'title': 'Slave',
     'location': 'Remote',
     'salary': 'Rp 100,000,000'
   },
@@ -31,7 +31,7 @@ JOBS = [
 
 @app.route("/")
 def hello():
-  return render_template("home.html", jobs= JOBS,company_name = "Ganesa")
+  return render_template("home.html", jobs= JOBS,company_name = "Sail'em")
 
 @app.route("/api/jobs")
 def list_jobs():
