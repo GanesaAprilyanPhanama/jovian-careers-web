@@ -1,0 +1,30 @@
+@font-face {
+  font-family: Roboto-normal;
+  src: url(/static/fonts/Roboto/Roboto-Regular.ttf);;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: Roboto-normal;
+  font-weight: normal;
+  color: rgb(50,50,50);
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+  font-family: Roboto-normal;
+  font-weight: normal;
+  color: rgb(100,100,100);
+  text-align: center;
+}
+
+p  {
+  font-family: Roboto-normal;
+}
+
+#banner {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+}
